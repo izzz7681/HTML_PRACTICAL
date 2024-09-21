@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Registration form</title>
+
+        <script type="text/javascript">
+            function checkdata()
+            {
+                t=document.record;
+
+                if(t.fname.value="")
+            {
+                alert
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <form method="get" action="table1.html" name="record">
+            <table>
+                <tr>
+                    <th colspan="2">Registration form</th>
+                </tr>
+                <tr>
+                    <td> <label>first name:</label></td>
+                    <td><input type="text" name="fname" id="first name"/></td>
+                </tr>
+                <tr>
+                    <td> <label>last name:</label></td>
+                    <td><input type="text" name="lname" id="last name"/></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea rows="2" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    
+                        <td>Email</td>
+                        <td><input type="email" name="e1" id="e1"/></td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td>password</td>
+                    <td><input type="password" name="p1" id="p1"/></td>
+                    
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="g1" id="male">Male
+                    <input type="radio" name="g1" id="female">Female</td>
+                </tr>
+                <tr>
+                    <td>Hobby:</td>
+                    <td><input type="checkbox" name="c1" checked>Cricket
+                        <input type="checkbox" name="b1" >bedminton
+                        <input type="checkbox" name="h1" >hockey</td>
+                </tr>
+
+                
+                <tr>
+                    <td>city:</td>
+                    <td><select name="s1">
+                        <option value="baroda">baroda</option>
+                        <option value="ahemadabad">ahemadabad</option>
+                        <option value="surat">surat</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>upload a file:</td>
+                    <td><input type="file"</td>
+                </tr>
+                <tr>
+                    <td>submit button:</td>
+                    <td><input type="submit" name="submit" value="submit">
+                        <input type="button" name="cancel" value="cancel"></td>
+                </tr>
+            
+            </table>
+
+        </form>
+    </body>
+</html>
